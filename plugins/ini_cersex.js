@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
-        let json = await fetch(`https://api-xcoders.xyz/api/random/cersex?apikey=xcoders`)
+        let json = await fetch(`https://api-xcoders.xyz/api/random/cersex?apikey=hnslrl1882`)
         let jsons = await json.json()
         let x = jsons.result
         let images = x.thumbnail

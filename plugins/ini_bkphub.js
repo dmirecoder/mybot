@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { text, usedPrefix, command }) => {
   try {
   if (!text) throw `Contoh penggunaan ${usedPrefix}${command} tante`
-  let json = await fetch(`https://api-xcoders.xyz/api/search/bokephub?query=${text}&apikey=xcoders`)
+  let json = await fetch(`https://api-xcoders.xyz/api/search/bokephub?query=${text}&apikey=hnslrl1882`)
   let jsons = await json.json()
         let x = jsons.result
   m.reply(`
